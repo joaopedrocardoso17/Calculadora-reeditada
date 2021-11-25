@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <link rel="stylesheet" href="css/equacaodoispontos.css">
+    <link rel="stylesheet" href="css/distanciapontoereta.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html">Clássica</a>
+        <a href="EquacaoEntreDoisPontos.html">Equações Dois Pontos</a>
+        <a href="DistanciaPontoeReta.html" class="selecionada">Distância entre Ponto e Reta</a>
+        <a href="EquacaoReduzida.html">Equação Reduzida</a>
+        <a href="PosicaoRelativadasRetas.html">Posição Relativa das Retas</a>
+    </nav>
+
+    <div class="calculadora">
+        <input type="text" disabled class="display" id="display" /> 
+ 
+        <div class="pontos">
+            <label>Ponto A</label>
+             <div><span>X:</span><input type="number" class="ponto" id="xA"></div>
+             <div><span>Y:</span><input type="number" class="ponto" id="yA"></div>
+        </div>
+ 
+          <div class="equação">
+            <label>Equação A</label>
+             <div><span>A:</span><input type="number" class="ponto" id="xB"></div>
+             <div><span>B:</span><input type="number" class="ponto" id="yB"></div>
+             <div><span>C:</span><input type="number" class="ponto" id="yB"></div>
+ 
+ 
+          </div>
+ 
+          <div class="primeira-linha">
+              <button onclick="limpar()">LIMPAR</button>
+          </div>
+ 
+          <div class="botoes-calculo">
+             <button onclick="calcularDistancia()">DISTÂNCIA DE PONTO E RETA</button>
+             
+          </div>
+ 
+             <script src="javacript/equacaodoispontos.js"></script>
+         </body>
+ 
+         </html>
+
+    <h1>Distância entre ponto e reta</h1>
+
+</body>
+</html>
